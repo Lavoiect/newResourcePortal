@@ -1,8 +1,10 @@
 <template>
   <div id="app">
     <Menu />
-    <SlideShow />
-    <Content />
+    <div class="container-fluid">
+      <SlideShow />
+      <Content />
+    </div>
   </div>
 </template>
 

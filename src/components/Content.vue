@@ -3,6 +3,7 @@
     <div class="col-3">block 1</div>
     <div class="col-3">block 2</div>
     <div class="col-3">block 3</div>
+    <div class="col-3">block 4</div>
   </div>
 </template>
 
