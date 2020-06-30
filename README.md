@@ -9,6 +9,7 @@ npm install
 ```
 npm run serve
 ```
+hi chris
 
 ### Compiles and minifies for production
 ```
