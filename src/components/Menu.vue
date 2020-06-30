@@ -1,8 +1,18 @@
 <template>
   <div class="menu">
-    <ul>
-      <li>Link 1</li>
-    </ul>
+    <nav class="navbar navbar-light bg-light">
+      <a class="navbar-brand" href="#">
+        <img
+          src="/docs/4.5/assets/brand/bootstrap-solid.svg"
+          width="30"
+          height="30"
+          class="d-inline-block align-top"
+          alt
+          loading="lazy"
+        />
+        Field Operations Resource Hub
+      </a>
+    </nav>
   </div>
 </template>
 
