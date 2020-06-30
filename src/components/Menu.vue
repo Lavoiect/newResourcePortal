@@ -1,19 +1,35 @@
 <template>
-  <div class="menu">
-    <nav class="navbar navbar-light bg-light">
-      <a class="navbar-brand" href="#">
-        <img
-          src="/docs/4.5/assets/brand/bootstrap-solid.svg"
-          width="30"
-          height="30"
-          class="d-inline-block align-top"
-          alt
-          loading="lazy"
-        />
-        Field Operations Resource Hub
-      </a>
-    </nav>
-  </div>
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <div class="navbar-collapse collapse order-1 order-md-0 dual-collapse2">
+      <a class="navbar-brand mx-auto" href="#">Field Operations Resource Hub</a>
+    </div>
+    <div class="mx-auto order-0">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target=".dual-collapse2"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+    <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">TalentCenter</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Kontiki</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">NCTI</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">SCTE</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 </template>
 
 
@@ -23,4 +39,5 @@ export default {
 };
 </script>
 
-<style lang="stylus" scoped></style>
+<style scoped>
+</style>
