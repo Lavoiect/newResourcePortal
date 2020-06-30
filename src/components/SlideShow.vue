@@ -1,5 +1,5 @@
 <template>
-  <div>the slide show</div>
+  <div>Slide show hero goes here</div>
 </template>
 
 <script>
