@@ -7,13 +7,13 @@
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="https://via.placeholder.com/1200x300" class="d-block w-100" alt="..." />
+        <img src="../assets/slide1.jpg" class="d-block w-100" alt="..." />
       </div>
       <div class="carousel-item">
-        <img src="https://via.placeholder.com/1200x300" class="d-block w-100" alt="..." />
+        <img src="../assets/slide2.jpg" class="d-block w-100" alt="..." />
       </div>
       <div class="carousel-item">
-        <img src="https://via.placeholder.com/1200x300" class="d-block w-100" alt="..." />
+        <img src="../assets/slide3.jpg" class="d-block w-100" alt="..." />
       </div>
     </div>
     <a
@@ -43,4 +43,8 @@ export default {
 };
 </script>
 
-<style lang="stylus" scoped></style>
+<style scoped>
+.carousel-inner {
+  margin: 30px 0;
+}
+</style>
