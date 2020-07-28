@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <Menu />
-    <div class="container-fluid">
+    <div class="container col-10">
       <SlideShow />
       <Content />
     </div>
