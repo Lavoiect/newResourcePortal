@@ -4,6 +4,7 @@
     <div class="container col-10">
       <SlideShow />
       <Content />
+      <Footer />
     </div>
   </div>
 </template>
@@ -12,13 +13,15 @@
 import Menu from "./components/Menu";
 import SlideShow from "./components/SlideShow";
 import Content from "./components/Content";
+import Footer from "./components/Footer";
 
 export default {
   name: "App",
   components: {
     Menu,
     SlideShow,
-    Content
+    Content,
+    Footer
   }
 };
 </script>
