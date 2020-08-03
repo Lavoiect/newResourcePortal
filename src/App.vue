@@ -2,26 +2,20 @@
   <div id="app">
     <Menu />
     <div class="container col-10">
-      <SlideShow />
-      <Content />
-      <Footer />
+      <router-view></router-view>
     </div>
   </div>
 </template>
 
 <script>
 import Menu from "./components/Menu";
-import SlideShow from "./components/SlideShow";
-import Content from "./components/Content";
-import Footer from "./components/Footer";
+
 
 export default {
   name: "App",
   components: {
     Menu,
-    SlideShow,
-    Content,
-    Footer
+  
   }
 };
 </script>

@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-md navbar-light bg-light">
+  <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
     <div class="navbar-collapse collapse order-1 order-md-0 dual-collapse2">
       <a class="navbar-brand mx-auto" href="#">Field Operations Resource Hub</a>
     </div>
